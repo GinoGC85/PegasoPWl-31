@@ -1,0 +1,321 @@
+id_operatore,zona,tipo_attivita
+OP0001,Est,Idraulico
+OP0002,Centro,Elettricista
+OP0003,Ovest,Idraulico
+OP0004,Centro,Fabbro
+OP0005,Nord,Tecnico climatizzazione
+OP0006,Sud,Tecnico caldaie
+OP0007,Sud,Idraulico
+OP0008,Provincia,Idraulico
+OP0009,Est,Tecnico caldaie
+OP0010,Provincia,Idraulico
+OP0011,Centro,Tecnico caldaie
+OP0012,Nord,Tecnico caldaie
+OP0013,Est,Elettricista
+OP0014,Nord,Elettricista  
+OP0015,Provincia,Tecnico caldaie
+OP0016,Centro  ,Tecnico elettrodomestici
+OP0017,Centro,Tecnico caldaie
+OP0018,Provincia,Idraulico
+OP0019,Nord,Tecnico caldaie
+OP0020,Est,Elettricista
+OP0021,Centro,Idraulico
+OP0022,Sud,Tecnico elettrodomestici
+OP0023,Ovest,Fabbro
+OP0024,Sud,Tecnico elettrodomestici
+OP0025,centro,Fabbro
+OP0026,Est,Idraulico
+OP0027,Nord,Elettricista
+OP0028,sud,Tecnico caldaie
+OP0029,Est,Tecnico caldaie
+OP0030,Provincia,Fabbro
+OP0031,Centro,Tecnico caldaie
+OP0032,Centro,Tecnico caldaie
+OP0033,Nord,Idraulico
+OP0034,CENTRO,Tecnico climatizzazione
+OP0035,Ovest,Tecnico elettrodomestici
+OP0036,Nord,Tecnico caldaie
+OP0037,Centro,TECNICO CALDAIE
+OP0038,Sud,Fabbro
+OP0039,Centro,Idraulico
+OP0040,Centro,Tecnico climatizzazione
+OP0041,Centro,Elettricista
+OP0042,Nord,Tecnico elettrodomestici
+OP0043,Centro,Tecnico elettrodomestici
+OP0044,Nord,Idraulico
+OP0045,Centro,Idraulico
+OP0046,Sud,Tecnico caldaie
+OP0047,Sud,Idraulico
+OP0048,Centro,Tecnico climatizzazione
+OP0049,Provincia,Tecnico caldaie
+OP0050,Provincia,Idraulico
+OP0051,Est,Fabbro
+OP0052,Nord,Fabbro
+OP0053,Nord,Elettricista
+OP0054,Nord,Elettricista
+OP0055,Sud,Tecnico climatizzazione
+OP0056,CENTRO,Tecnico climatizzazione
+OP0057,Centro,Fabbro
+OP0058,Centro,Idraulico
+OP0059,Centro,Elettricista
+OP0060,Nord  ,Fabbro
+OP0061,Nord,Tecnico climatizzazione
+OP0062,Nord,Idraulico
+OP0063,Est,Elettricista
+OP0064,Sud,Idraulico
+OP0065,Ovest,TECNICO CALDAIE
+OP0066,Ovest,Idraulico
+OP0067,Centro,tecnico elettrodomestici
+OP0068,Ovest,Elettricista
+OP0069,Ovest,ELETTRICISTA
+OP0070,Est,Tecnico caldaie
+OP0071,Ovest,Idraulico
+OP0072,  Nord,Tecnico elettrodomestici
+OP0073,Ovest,Elettricista
+OP0074,Nord,Tecnico elettrodomestici
+OP0075,Provincia,Idraulico
+OP0076,Nord,Elettricista
+OP0077,Provincia,Tecnico elettrodomestici
+OP0078,Ovest,Elettricista
+OP0079,Est,Tecnico climatizzazione
+OP0080,Est,Tecnico climatizzazione
+OP0081,Sud,Tecnico climatizzazione
+OP0082,Ovest,Tecnico elettrodomestici
+OP0083,Est,Elettricista
+OP0084,Provincia,Tecnico climatizzazione
+OP0085,Centro,TECNICO CALDAIE
+OP0086,Ovest,Tecnico climatizzazione
+OP0087,Nord,Elettricista
+OP0088,Nord,Tecnico climatizzazione
+OP0089,Ovest,  Tecnico caldaie
+OP0090,Centro,Tecnico climatizzazione
+OP0091,Centro,Tecnico elettrodomestici
+OP0092,Sud,Tecnico caldaie
+OP0093,Nord,Tecnico caldaie
+OP0094,Est,Tecnico climatizzazione
+OP0095,Sud,Tecnico climatizzazione
+OP0096,Est,Tecnico elettrodomestici
+OP0097,Ovest,Tecnico caldaie
+OP0098,Centro,Fabbro
+OP0099,Centro,Idraulico
+OP0100,Centro,Tecnico elettrodomestici
+OP0101,CENTRO,Idraulico
+OP0102,Centro,Elettricista
+OP0103,Centro,Idraulico
+OP0104,Provincia,fabbro
+OP0105,Ovest  ,Tecnico climatizzazione
+OP0106,Centro,Tecnico climatizzazione
+OP0107,Ovest,Idraulico
+OP0108,Ovest,Tecnico elettrodomestici
+OP0109,Ovest,Fabbro
+OP0110,Ovest,Tecnico caldaie
+OP0111,Ovest,Tecnico elettrodomestici
+OP0112,Centro,Fabbro
+OP0113,Nord,Tecnico elettrodomestici
+OP0114,Centro,Idraulico  
+OP0115,Sud,Tecnico elettrodomestici
+OP0116,Centro,Tecnico caldaie
+OP0117,Sud,Elettricista
+OP0118,Centro,Fabbro
+OP0119,sud,Elettricista
+OP0120,Nord  ,Tecnico elettrodomestici
+OP0121,Centro,Tecnico climatizzazione
+OP0122,Est,Fabbro
+OP0123,Nord,Tecnico climatizzazione
+OP0124,Centro,tecnico elettrodomestici
+OP0125,Nord,Elettricista
+OP0126,Centro,Elettricista
+OP0127,Est,Tecnico caldaie
+OP0128,Est,Elettricista
+OP0129,Est,Idraulico
+OP0130,Centro,Idraulico
+OP0131,Nord,Fabbro
+OP0132,Ovest,Elettricista
+OP0133,Provincia,Tecnico elettrodomestici
+OP0134,Sud,Tecnico elettrodomestici
+OP0135,Sud,Tecnico elettrodomestici
+OP0136,Nord,Fabbro
+OP0137,Est,Elettricista
+OP0138,Nord,Idraulico
+OP0139,Provincia,Tecnico elettrodomestici
+OP0140,Est,  Fabbro
+OP0141,Nord,Tecnico climatizzazione
+OP0142,Centro,Elettricista
+OP0143,Centro,Tecnico elettrodomestici
+OP0144,Ovest,Tecnico elettrodomestici
+OP0145,Nord,Tecnico caldaie
+OP0146,Centro,Tecnico elettrodomestici
+OP0147,Est,Idraulico
+OP0148,Centro,elettricista
+OP0149,Sud,Elettricista  
+OP0150,Sud,Tecnico climatizzazione
+OP0151,Centro,Idraulico
+OP0152,Centro,Elettricista
+OP0153,Ovest,Idraulico
+OP0154,Provincia,Idraulico
+OP0155,Centro,Tecnico climatizzazione
+OP0156,Provincia,Tecnico caldaie
+OP0157,Est,Tecnico elettrodomestici
+OP0158,CENTRO,Fabbro
+OP0159,Provincia,Idraulico
+OP0160,Est,Idraulico
+OP0161,NORD,Idraulico
+OP0162,Ovest,Idraulico
+OP0163,Nord,Tecnico caldaie
+OP0164,Nord,  Fabbro
+OP0165,Sud,Elettricista
+OP0166,Provincia,Elettricista
+OP0167,Est,Tecnico caldaie
+OP0168,Centro,Fabbro
+OP0169,Est,Tecnico elettrodomestici
+OP0170,Sud,Elettricista
+OP0171,Ovest,Elettricista
+OP0172,Nord,Tecnico elettrodomestici
+OP0173,Centro,Elettricista
+OP0174,Ovest,Idraulico
+OP0175,Centro,Idraulico
+OP0176,Est,Idraulico
+OP0177,Centro,Elettricista
+OP0178,Est,Idraulico
+OP0179,Est,Elettricista
+OP0180,Sud,Elettricista
+OP0181,Provincia,Tecnico elettrodomestici
+OP0182,Est,Tecnico climatizzazione
+OP0183,Ovest,Tecnico climatizzazione
+OP0184,Sud,Tecnico caldaie
+OP0185,Provincia,Tecnico climatizzazione
+OP0186,Sud,Idraulico
+OP0187,Centro,Idraulico
+OP0188,Sud,Idraulico
+OP0189,Sud,Tecnico caldaie
+OP0190,Provincia,Fabbro
+OP0191,Centro,Elettricista
+OP0192,Est,Idraulico
+OP0193,Centro,Tecnico caldaie
+OP0194,Sud,Elettricista
+OP0195,Centro,Elettricista
+OP0196,Est,Tecnico caldaie
+OP0197,Centro,Idraulico
+OP0198,Provincia,Tecnico caldaie
+OP0199,Provincia,Elettricista
+OP0200,Centro,Idraulico
+OP0201,Nord,Idraulico  
+OP0202,Provincia,Tecnico caldaie
+OP0203,Est,Tecnico elettrodomestici
+OP0204,Sud,Elettricista
+OP0205,Sud,Fabbro
+OP0206,Centro,Idraulico
+OP0207,Centro,Tecnico elettrodomestici
+OP0208,Centro,Tecnico elettrodomestici
+OP0209,Centro,Fabbro
+OP0210,Centro,Tecnico climatizzazione
+OP0211,OVEST,Tecnico caldaie
+OP0212,Est,Elettricista
+OP0213,Sud,Tecnico climatizzazione
+OP0214,Centro,Tecnico caldaie
+OP0215,centro,Tecnico elettrodomestici
+OP0216,Ovest,Fabbro
+OP0217,Nord,Tecnico climatizzazione
+OP0218,  Sud,Tecnico elettrodomestici
+OP0219,Centro,Elettricista  
+OP0220,Provincia,Tecnico caldaie  
+OP0221,Provincia,Elettricista
+OP0222,Sud,Fabbro
+OP0223,Sud,Idraulico
+OP0224,Nord,Idraulico
+OP0225,Nord,Tecnico caldaie
+OP0226,Provincia,Fabbro
+OP0227,Sud,Tecnico caldaie
+OP0228,Centro,Idraulico
+OP0229,Nord,Tecnico elettrodomestici
+OP0230,Nord,Elettricista
+OP0231,Sud,Elettricista
+OP0232,Nord,Tecnico elettrodomestici
+OP0233,Est,Idraulico
+OP0234,Sud,Tecnico elettrodomestici
+OP0235,Sud,Idraulico
+OP0236,Ovest,Tecnico elettrodomestici
+OP0237,Sud,Tecnico elettrodomestici
+OP0238,Centro,Tecnico caldaie
+OP0239,Provincia,Elettricista
+OP0240,Est,Tecnico climatizzazione
+OP0241,  Est,Fabbro
+OP0242,Nord,Tecnico climatizzazione
+OP0243,Provincia,Elettricista
+OP0244,Nord,Idraulico
+OP0245,Ovest,Tecnico climatizzazione
+OP0246,Centro,Tecnico climatizzazione
+OP0247,Sud,Fabbro
+OP0248,Ovest,Fabbro
+OP0249,Provincia,Tecnico climatizzazione
+OP0250,Centro,Elettricista
+OP0251,Provincia,Tecnico elettrodomestici
+OP0252,Ovest,Fabbro
+OP0253,Nord,Idraulico
+OP0254,  Est,Tecnico elettrodomestici
+OP0255,Nord,Tecnico caldaie
+OP0256,Provincia,Elettricista
+OP0257,Est,Idraulico
+OP0258,Nord,Tecnico caldaie
+OP0259,Provincia,Tecnico climatizzazione
+OP0260,Est,  Idraulico
+OP0261,Centro,Tecnico caldaie
+OP0262,Sud,Tecnico climatizzazione  
+OP0263,Nord,Fabbro
+OP0264,Est,Tecnico elettrodomestici
+OP0265,Ovest,Elettricista
+OP0266,Est,fabbro
+OP0267,Provincia,  Elettricista
+OP0268,Centro,Tecnico elettrodomestici
+OP0269,Est,Tecnico elettrodomestici
+OP0270,Centro,Tecnico elettrodomestici
+OP0271,Nord,Idraulico
+OP0272,  Centro,Elettricista
+OP0273,Provincia,Tecnico climatizzazione  
+OP0274,Ovest,Elettricista
+OP0275,Provincia,Fabbro
+OP0276,Nord,Idraulico
+OP0277,Nord,Elettricista
+OP0278,Centro,Elettricista
+OP0279,provincia,IDRAULICO
+OP0280,Sud,Fabbro
+OP0281,Ovest  ,Idraulico
+OP0282,Centro,Tecnico climatizzazione
+OP0283,Ovest,Idraulico
+OP0284,Centro,Fabbro
+OP0285,Centro,Tecnico climatizzazione
+OP0286,Est,Tecnico climatizzazione
+OP0287,Sud,Idraulico
+OP0288,Sud,Idraulico
+OP0289,Centro,Idraulico
+OP0290,Sud,Fabbro
+OP0291,Ovest,Tecnico elettrodomestici
+OP0292,Nord,Idraulico
+OP0293,Nord,Elettricista
+OP0294,Sud,Tecnico climatizzazione
+OP0295,Est,Elettricista
+OP0296,Sud,Idraulico
+OP0297,Nord,Tecnico climatizzazione
+OP0298,Nord,Fabbro
+OP0299,  Centro,Idraulico
+OP0300,Provincia,Tecnico elettrodomestici
+OP0301,Sud,Idraulico
+OP0302,Ovest,Tecnico caldaie
+OP0303,  Ovest,Idraulico
+OP0304,Sud,Elettricista
+OP0305,Provincia,Idraulico
+OP0306,Sud,Idraulico
+OP0307,Est,Tecnico elettrodomestici
+OP0308,Nord,Tecnico elettrodomestici
+OP0309,Centro,Idraulico
+OP0310,Nord,Elettricista
+OP0311,Sud,Tecnico caldaie
+OP0312,Ovest,Tecnico climatizzazione
+OP0313,Nord,Idraulico
+OP0314,Est,Tecnico caldaie
+OP0315,Centro,Idraulico
+OP0316,Ovest,Tecnico climatizzazione
+OP0317,Est,Fabbro  
+OP0318,Centro,Tecnico caldaie
+OP0319,Nord,Idraulico
+OP0320,Est,Tecnico climatizzazione

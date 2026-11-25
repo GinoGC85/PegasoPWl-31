@@ -1,0 +1,301 @@
+id_fornitore,nome,categoria,zona
+FO0001,Chiavi Pro 001,Fabbro,Provincia
+FO0002,Volt Express 002,Impianti elettrici,Ovest
+FO0003,Tubi Rapido 003,Idraulica,Sud
+FO0004,Volt Rapido 004,Elettricità,Centro
+FO0005,Elettrodomestici Più 005,Elettrodomestici,Ovest
+FO0006,Termo Lab 006,Riscaldamento,Centro
+FO0007,Frigo Express 007,Climatizzazione,Sud
+FO0008,Impianti Express 008,Elettricità,Provincia
+FO0009,Chiavi  Team 009 ,Serrature e infissi,nord
+FO0010,Idro Express 010,Idraulica,Nord
+FO0011,Clima Casa 011,Climatizzazione,Est
+FO0012,Idrotecnica Service 012,Idraulica,Est
+FO0013,Idrotecnica Più 013,Idraulica,Nord
+FO0014,Elettro Pronto 014,Elettricità,Centro
+FO0015,Idrotecnica  Pronto 015 ,Idraulica,Nord
+FO0016,Aria Rapido 016,Climatizzazione,Centro
+FO0017,Infissi  Pronto 017 ,Fabbro,Est
+FO0018,Impianti Pro 018,Elettricità,Nord
+FO0019,Serrature Rapido 019,Serrature e infissi,Sud
+FO0020,Tubi Pronto 020,Idraulica,Sud
+FO0021,Tecno Express 021,Elettrodomestici,Est
+FO0022,Idro Pro 022,Idraulica,Nord
+FO0023,Tubi Casa 023,Idraulica,Centro
+FO0024,Clima Lab 024,Climatizzazione,Sud
+FO0025,Elettro Team 025,Elettricità,Provincia
+FO0026,Tubi Pro 026,Idraulica,Centro
+FO0027,Idro Rapido 027,Idraulica,Centro
+FO0028,Idro Service 028,Idraulica  ,Nord
+FO0029,Termo  Rapido 029 ,Caldaie e riscaldamento,Provincia
+FO0030,Serrature Lab 030,Serrature e infissi,Ovest
+FO0031,Tecno Service 031,Elettrodomestici,Sud
+FO0032,Elettrodomestici Point 032,Elettrodomestici,Nord
+FO0033,Infissi Casa 033,Fabbro,Nord
+FO0034,Termotecnica Lab 034,Caldaie e riscaldamento,Centro
+FO0035,Termo Più 035,Caldaie e riscaldamento,Est
+FO0036,Idro Lab 036,Idraulica,Nord
+FO0037,Idro Pronto 037,Idraulica,Ovest
+FO0038,Volt Service 038,Elettricità,Est
+FO0039,Elettro Team 039,Elettricità,Est
+FO0040,Impianti Service 040,Elettricità,Centro
+FO0041,Serrature Lab 041,Serrature e infissi,Ovest
+FO0042,Tecno Service 042,Elettrodomestici,Nord
+FO0043,Frigo Casa 043,Climatizzazione,Sud
+FO0044,Tecno Pronto 044,Elettrodomestici,Sud
+FO0045,Termo Casa 045,Caldaie e riscaldamento,Centro  
+FO0046,Impianti Casa 046,Elettricità,Ovest
+FO0047,Calor Point 047,Caldaie e riscaldamento,Ovest
+FO0048,Aria Express 048,Climatizzazione,Centro
+FO0049,Tecno Team 049,elettrodomestici,Sud
+FO0050,Termotecnica Lab 050,Caldaie e riscaldamento,PROVINCIA
+FO0051,Calor Express 051,Caldaie e riscaldamento,Centro
+FO0052,Idrotecnica Più 052,Idraulica,Centro
+FO0053,Volt Service 053,Elettricità,Sud
+FO0054,Clima Pronto 054,Climatizzazione,Nord
+FO0055,Elettro Point 055,Elettricità,Centro
+FO0056,Frigo Pronto 056,Climatizzazione,Centro
+FO0057,Termo Lab 057,Caldaie e riscaldamento,Centro
+FO0058,Serrature Casa 058,Serrature e infissi,Centro
+FO0059,Frigo Casa 059,  Climatizzazione,Centro
+FO0060,Impianti Express 060,Elettricità,  Nord
+FO0061,Tubi Express 061,Idraulica,Provincia
+FO0062,Termo Team 062,Caldaie e riscaldamento,Centro
+FO0063,Calor Casa 063,Caldaie e riscaldamento,Ovest
+FO0064,Chiavi Service 064,Serrature e infissi,Est
+FO0065,Volt  Pro 065 ,Elettricità,Centro
+FO0066,Aria Express 066,Climatizzazione,Ovest
+FO0067,Elettro Più 067,Elettricità,Provincia
+FO0068,Ripara Team 068,Elettrodomestici,Centro
+FO0069,Infissi Express 069,Serrature e infissi,Est
+FO0070,Serrature Point 070,Serrature e infissi,Centro
+FO0071,Impianti Pro 071,Elettricità,Centro
+FO0072,Aria Service 072,Climatizzazione,Centro
+FO0073,Ripara Casa 073,Elettrodomestici,Centro
+FO0074,Termotecnica Pronto 074,Caldaie e riscaldamento,Est
+FO0075,Termo Lab 075,Caldaie e riscaldamento,Ovest
+FO0076,Tubi Rapido 076,Idraulica,Sud
+FO0077,Calor Express 077,Caldaie e riscaldamento,Est
+FO0078,Calor Pronto 078,Caldaie e riscaldamento,Sud
+FO0079,Tecno Express 079,Elettrodomestici,Provincia
+FO0080,Aria Express 080,CLIMATIZZAZIONE,Nord
+FO0081,Idrotecnica Pronto 081,Idraulica,Nord
+FO0082,Impianti  Casa 082 ,Elettricità,Centro
+FO0083,Calor Point 083,CALDAIE E RISCALDAMENTO,Provincia
+FO0084,Impianti Point 084,Elettricità,Centro
+FO0085,Frigo Pro 085,Climatizzazione,Sud
+FO0086,Tubi Casa 086,Idraulica,SUD
+FO0087,Elettrodomestici Service 087,ELETTRODOMESTICI,Centro
+FO0088,Elettro Pronto 088,ELETTRICITÀ,Centro
+FO0089,Calor Pronto 089,Caldaie e riscaldamento,Nord
+FO0090,Termotecnica Più 090,Caldaie e riscaldamento,Sud
+FO0091,Tubi Team 091,Idraulica,Est
+FO0092,Chiavi Service 092,Serrature e infissi,Est
+FO0093,Elettro Point 093,Elettricità,Ovest
+FO0094,Idro Team 094,Idraulica,Centro
+FO0095,Volt Pronto 095,Elettricità,Ovest
+FO0096,Idro Lab 096,Idraulica,Est
+FO0097,Tubi Point 097,Idraulica,Sud
+FO0098,Calor Pronto 098,Caldaie e riscaldamento,Nord
+FO0099,Tecno Pronto 099,ELETTRODOMESTICI,Centro
+FO0100,Termotecnica Casa 100,Caldaie e riscaldamento,Ovest
+FO0101,Impianti Point 101,Elettricità,Centro
+FO0102,Calor  Lab 102 ,Caldaie e riscaldamento,Nord
+FO0103,Impianti Rapido 103,Elettricità,Provincia
+FO0104,Infissi Point 104,serrature e infissi,Sud
+FO0105,Idro Lab 105,Idraulica,Est
+FO0106,Aria Lab 106,Climatizzazione,Nord
+FO0107,Ripara Team 107,Elettrodomestici,Ovest
+FO0108,Infissi Point 108,Serrature e infissi,Ovest
+FO0109,Aria Service 109,Climatizzazione,Ovest
+FO0110,Impianti Più 110,Elettricità,Centro
+FO0111,Elettrodomestici Express 111,Elettrodomestici,CENTRO
+FO0112,Infissi Più 112,Serrature e infissi,Nord
+FO0113,Idrotecnica Casa 113,Idraulica,Provincia
+FO0114,Serrature Team 114,Serrature e infissi,Sud
+FO0115,Tubi Service 115,Idraulica,Centro
+FO0116,Frigo Point 116,Climatizzazione,Provincia
+FO0117,Frigo Team 117,Climatizzazione,Nord
+FO0118,Idrotecnica Service 118,Idraulica,Ovest
+FO0119,Infissi  Team 119 ,Fabbro,Sud
+FO0120,Ripara Più 120,Elettrodomestici,Centro
+FO0121,Elettro Lab 121,Elettricità,Provincia
+FO0122,Aria Service 122,Climatizzazione,Nord
+FO0123,Elettrodomestici Point 123,Elettrodomestici,Nord
+FO0124,Termotecnica Point 124,Caldaie e riscaldamento,Sud
+FO0125,Elettro Express 125,Elettricità,Provincia
+FO0126,Ripara Più 126,Elettrodomestici,  Centro
+FO0127,Idro Team 127,Idraulica,Nord
+FO0128,Tecno Rapido 128,Elettrodomestici,Sud
+FO0129,Termotecnica Pronto 129,Caldaie e riscaldamento,Sud
+FO0130,Termotecnica Casa 130,Caldaie e riscaldamento,Est
+FO0131,Impianti Casa 131,Elettricità,Sud
+FO0132,Elettro Team 132,Elettricità,Nord
+FO0133,Volt Pro 133,Elettricità,Provincia
+FO0134,Termotecnica Point 134,Caldaie e riscaldamento,Est
+FO0135,Idro Pronto 135,Idraulica,Nord
+FO0136,Tecno Casa 136,Elettrodomestici,Nord
+FO0137,Elettrodomestici Point 137,Elettrodomestici,Sud
+FO0138,Idro Service 138,Idraulica,Nord
+FO0139,Aria Lab 139,Climatizzazione,Nord
+FO0140,Idrotecnica Pronto 140,Idraulica,Centro
+FO0141,Serrature Point 141,Serrature e infissi,Nord
+FO0142,Termo Service 142,Caldaie e riscaldamento,Centro
+FO0143,Tubi Team 143,Idraulica,Est
+FO0144,Idrotecnica Pronto 144,Idraulica,Centro
+FO0145,Aria Point 145,Climatizzazione,Centro
+FO0146,Calor Rapido 146,Caldaie e riscaldamento,Centro
+FO0147,Serrature Casa 147,Serrature e infissi,Provincia
+FO0148,Elettro Service 148,Elettricità,Est
+FO0149,Tubi Casa 149,Idraulica,Est
+FO0150,Chiavi Lab 150,Serrature e infissi,Centro
+FO0151,Aria Service 151,Climatizzazione,Provincia
+FO0152,Aria Rapido 152,Climatizzazione,Sud
+FO0153,Idrotecnica Service 153,Idraulica,Ovest  
+FO0154,Impianti Point 154,Elettricità,Est  
+FO0155,Aria Service 155,Climatizzazione,Provincia
+FO0156,Infissi Casa 156,Serrature e infissi,Provincia
+FO0157,Serrature Casa 157,Serrature e infissi,  Ovest
+FO0158,Infissi Team 158,Serrature e infissi,Centro
+FO0159,Tubi Team 159,Idraulica,Nord
+FO0160,Termotecnica Lab 160,Caldaie e riscaldamento,Est
+FO0161,Idro Rapido 161,Idraulica,Provincia
+FO0162,Frigo Pronto 162,Climatizzazione,Sud
+FO0163,Elettro Rapido 163,Elettricità,Sud
+FO0164,Infissi Casa 164,Serrature e infissi,Sud
+FO0165,Impianti Casa 165,Elettricità,Ovest
+FO0166,Aria Casa 166,Climatizzazione,Est
+FO0167,Impianti Pronto 167,Elettricità,Ovest
+FO0168,Idro Team 168,Idraulica,  Nord
+FO0169,Tubi Casa 169,Idraulica,Est
+FO0170,Impianti Più 170,Elettricità,Centro
+FO0171,Idrotecnica Lab 171,Idraulica,Centro
+FO0172,Clima Point 172,Climatizzazione,Est
+FO0173,Idro Service 173,Idraulica,Provincia
+FO0174,Ripara Più 174,Elettrodomestici,Sud
+FO0175,Serrature Rapido 175,Serrature e infissi,Sud
+FO0176,Serrature Service 176,Serrature e infissi,Nord
+FO0177,Volt Express 177,Elettricità,Est
+FO0178,Elettrodomestici Express 178,Elettrodomestici,Centro
+FO0179,Idrotecnica Rapido 179,Idraulica,Centro
+FO0180,Elettro Express 180,Elettricità,  Sud
+FO0181,Ripara Pronto 181,Elettrodomestici,Sud
+FO0182,Elettro Pronto 182,Elettricità,Sud
+FO0183,Chiavi Rapido 183,Serrature e infissi,Nord
+FO0184,Impianti Pro 184,Impianti elettrici,Sud
+FO0185,Idrotecnica Casa 185,Idraulica,Centro
+FO0186,Calor Casa 186,CALDAIE E RISCALDAMENTO,Ovest
+FO0187,Idro Point 187,Idraulica,Sud
+FO0188,Calor Express 188,Caldaie e riscaldamento,Centro
+FO0189,Chiavi Rapido 189,Serrature e infissi,Centro
+FO0190,Idro Più 190,Idraulica,Provincia
+FO0191,Ripara Pronto 191,Elettrodomestici,Ovest
+FO0192,Tecno Pro 192,Elettrodomestici,Centro
+FO0193,Elettro Lab 193,Elettricità,Sud
+FO0194,Termotecnica Più 194,Caldaie e riscaldamento,Centro
+FO0195,Tubi Rapido 195,Idraulica,Centro
+FO0196,Volt Pronto 196,Elettricità,Sud
+FO0197,Calor Team 197,Caldaie e riscaldamento,Centro  
+FO0198,Frigo Lab 198,Climatizzazione,Nord
+FO0199,Elettro Lab 199,Elettricità,Est
+FO0200,Elettrodomestici Lab 200,Elettrodomestici,Est
+FO0201,Elettrodomestici Team 201,Elettrodomestici,Ovest
+FO0202,Volt Pro 202,Elettricità,Centro
+FO0203,Chiavi Rapido 203,Serrature e infissi,Ovest
+FO0204,Idrotecnica Casa 204,Idraulica,Est
+FO0205,Elettrodomestici Service 205,Elettrodomestici,Provincia
+FO0206,Volt Pro 206,  Elettricità,Nord
+FO0207,Tubi Lab 207,Idraulica,Sud
+FO0208,Termo Casa 208,Caldaie e riscaldamento,Nord
+FO0209,Termo Point 209,Caldaie e riscaldamento,Provincia
+FO0210,Elettrodomestici Pro 210,Elettrodomestici,Centro
+FO0211,Tubi Point 211,Idraulica,Provincia
+FO0212,Ripara Casa 212,ELETTRODOMESTICI,Ovest
+FO0213,Serrature Più 213,Serrature e infissi,Provincia
+FO0214,Idrotecnica Express 214,Idraulica,Sud
+FO0215,Idrotecnica Pronto 215,Idraulica,Centro
+FO0216,Idrotecnica Pro 216,Idraulica,Sud
+FO0217,Termo Casa 217,Caldaie e riscaldamento,Est
+FO0218,Impianti Pronto 218,Elettricità,Nord
+FO0219,Infissi Pronto 219,Serrature e infissi,Centro
+FO0220,Idrotecnica Express 220,Idraulica,Provincia
+FO0221,Clima Casa 221,  Climatizzazione,Sud
+FO0222,Elettro Più 222,Elettricità,Ovest
+FO0223,Elettrodomestici Point 223,elettrodomestici,Provincia
+FO0224,Elettrodomestici Pronto 224,Elettrodomestici,Nord
+FO0225,Clima Point 225,climatizzazione,Nord
+FO0226,Infissi Team 226,Serrature e infissi,Est
+FO0227,Termo Service 227,Caldaie e riscaldamento,Sud
+FO0228,Tecno  Più 228 ,Elettrodomestici,Nord
+FO0229,Tecno Casa 229,Elettrodomestici,Est
+FO0230,Aria Casa 230,Climatizzazione,Ovest
+FO0231,Impianti Point 231,Elettricità,Sud
+FO0232,Idro Lab 232,Idraulica,Sud
+FO0233,Termotecnica Express 233,Caldaie e riscaldamento  ,Provincia
+FO0234,Termo Point 234,Caldaie e riscaldamento,Nord
+FO0235,Aria Pronto 235,Climatizzazione,Centro
+FO0236,Volt Point 236,Elettricità,Centro
+FO0237,Frigo Express 237,Climatizzazione,Centro
+FO0238,Idro Rapido 238,Idraulica,Centro
+FO0239,Impianti Pro 239,Elettricità,Nord
+FO0240,Idrotecnica Rapido 240,Idraulica,Sud
+FO0241,Idrotecnica Casa 241,Idraulica,Ovest
+FO0242,Ripara Più 242,Elettrodomestici,Ovest
+FO0243,Elettrodomestici Service 243,Elettrodomestici,Provincia
+FO0244,Impianti Lab 244,Elettricità,Est
+FO0245,Aria Lab 245,Climatizzazione,Est
+FO0246,Volt Team 246,Elettricità,Est
+FO0247,Elettrodomestici Pronto 247,Elettrodomestici,Nord
+FO0248,Tecno Più 248,Elettrodomestici,Nord
+FO0249,Tubi Rapido 249,Idraulica,Centro
+FO0250,Idro Casa 250,IDRAULICA,Sud
+FO0251,Tecno Lab 251,Elettrodomestici,Est
+FO0252,Elettrodomestici Pro 252,Elettrodomestici,Provincia
+FO0253,Aria Point 253,  Climatizzazione,Ovest
+FO0254,Ripara Express 254,Elettrodomestici,Est
+FO0255,Clima Pronto 255,Climatizzazione,Centro
+FO0256,Calor Rapido 256,Caldaie e riscaldamento,Nord
+FO0257,Tecno Casa 257,Elettrodomestici,Provincia
+FO0258,Tubi Pronto 258,Idraulica,Centro
+FO0259,Idro Casa 259,Idraulica,Ovest
+FO0260,Tubi Rapido 260,Idraulica,ovest
+FO0261,Idro Pro 261,Idraulica,Nord
+FO0262,Idrotecnica Express 262,Idraulica,Ovest
+FO0263,Calor Rapido 263,Caldaie e riscaldamento,Nord
+FO0264,Elettro Lab 264,Elettricità,Est
+FO0265,Tubi Express 265,Idraulica,Est
+FO0266,Calor Più 266,Caldaie e riscaldamento,Sud
+FO0267,Frigo Casa 267,Climatizzazione,Ovest
+FO0268,Termotecnica Service 268,Caldaie e riscaldamento,Nord
+FO0269,Idrotecnica Rapido 269,Idraulica,Ovest
+FO0270,Idro Express 270,Idraulica,Est
+FO0271,Volt Casa 271,Elettricità,Nord
+FO0272,Idro Point 272,Idraulica,Provincia
+FO0273,Serrature Point 273,Serrature e infissi,Centro  
+FO0274,Idro  Pronto 274 ,Idraulica,Centro
+FO0275,Calor Lab 275,Caldaie e riscaldamento,Ovest
+FO0276,Idrotecnica Pro 276,Idraulica,Provincia
+FO0277,Termo Rapido 277,Caldaie e riscaldamento,Sud
+FO0278,Idrotecnica Lab 278,Idraulica,Centro
+FO0279,Termo Express 279,Caldaie e riscaldamento,Centro
+FO0280,Tecno Più 280,Elettrodomestici,Est
+FO0281,Ripara Lab 281,Elettrodomestici,Nord
+FO0282,Elettro Pronto 282,Elettricità,Centro
+FO0283,Idro Express 283,  Idraulica,Ovest
+FO0284,Elettro Rapido 284,Elettricità,Nord
+FO0285,Ripara Express 285,Elettrodomestici,Centro
+FO0286,Clima Express 286,Aria condizionata,Centro
+FO0287,Idro Rapido 287,Idraulica,Centro
+FO0288,Infissi Express 288,Serrature e infissi,Centro
+FO0289,Idrotecnica Point 289,Idraulica,Est
+FO0290,Serrature Pronto 290,Serrature e infissi,Centro
+FO0291,Aria Più 291,Climatizzazione,Est
+FO0292,Aria Rapido 292,Climatizzazione,Provincia
+FO0293,Elettro Casa 293,Elettricità,  Nord
+FO0294,Aria Service 294,Climatizzazione,Centro
+FO0295,Aria Point 295,Aria condizionata,Est
+FO0296,Aria Più 296,Climatizzazione,Provincia
+FO0297,Elettro Più 297,Elettricità,Nord
+FO0298,Tecno Più 298,elettrodomestici,Centro
+FO0299,Tecno Casa 299,Elettrodomestici,Est
+FO0300,Elettrodomestici Più 300,Elettrodomestici,Sud

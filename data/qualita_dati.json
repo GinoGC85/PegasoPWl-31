@@ -1,0 +1,65 @@
+{
+  "eseguito_il": "2026-10-20T16:17:52",
+  "clienti": {
+    "righe_lette": 450,
+    "chiavi_duplicate_rimosse": 0,
+    "zone_uniformate": 22,
+    "zone_non_riconosciute": [],
+    "date_convertite_da_gg_mm_aaaa": 62,
+    "date_non_valide": 0,
+    "righe_caricate": 450
+  },
+  "fornitori": {
+    "righe_lette": 300,
+    "chiavi_duplicate_rimosse": 0,
+    "nomi_ripuliti": 10,
+    "categorie_uniformate": 29,
+    "categorie_non_riconosciute": [],
+    "zone_uniformate": 16,
+    "zone_non_riconosciute": [],
+    "righe_caricate": 300
+  },
+  "operatori": {
+    "righe_lette": 320,
+    "chiavi_duplicate_rimosse": 0,
+    "attivita_uniformate": 24,
+    "attivita_non_riconosciute": [],
+    "zone_uniformate": 23,
+    "zone_non_riconosciute": [],
+    "righe_caricate": 320
+  },
+  "richieste": {
+    "righe_lette": 600,
+    "duplicati_rimossi": 6,
+    "id_ripetuti_con_dati_diversi": 0,
+    "stati_uniformati": 73,
+    "stati_non_riconosciuti": [],
+    "date_ora_convertite_da_gg_mm_aaaa": 80,
+    "importi_con_virgola_convertiti": 83,
+    "scartate": {
+      "importo negativo": 2,
+      "tempo di erogazione mancante o non valido": 2
+    },
+    "scartate_totale": 4,
+    "annullate_con_importo_azzerato": 0,
+    "clienti_non_in_anagrafica": 0,
+    "fornitori_non_in_anagrafica": 0,
+    "operatori_non_in_anagrafica": 3,
+    "richieste_precedenti_all_iscrizione": 0,
+    "operatori_con_attivita_incoerente": 0,
+    "righe_caricate": 590
+  },
+  "calendario": {
+    "dal": "2025-10-01",
+    "al": "2026-09-30",
+    "giorni": 365
+  },
+  "controlli_dopo_il_caricamento": {
+    "righe_fact_richieste": 590,
+    "id_richiesta_duplicati": 0,
+    "violazioni_chiavi_esterne": 0,
+    "annullate_con_incasso": 0,
+    "giorni_mancanti_nel_calendario": 0.0,
+    "incassi_totali": 74353.5
+  }
+}

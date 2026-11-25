@@ -1,0 +1,5 @@
+id_richiesta,id_cliente,id_fornitore,id_operatore,data_ora,importo,tempo_erogazione_min,stato,motivo
+RQ00022,CL0046,FO0045,OP0028,2025-10-27 21:16:07,"-181,50",135,Completata,importo negativo
+RQ00217,CL0031,FO0161,OP0050,2026-04-12 10:47:57,125.00,,Completata,tempo di erogazione mancante o non valido
+RQ00396,CL0335,FO0136,OP0232,2026-07-14 15:39:02,-123.50,59,Completata,importo negativo
+RQ00447,CL0341,FO0017,OP0131,2026-08-01 12:14:19,154.00,,Completata,tempo di erogazione mancante o non valido

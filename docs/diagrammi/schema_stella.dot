@@ -1,0 +1,61 @@
+digraph stella {
+  graph [rankdir=LR, bgcolor="white", pad="0.12", nodesep="0.55", ranksep="0.85", dpi=220, splines=true];
+  node  [shape=plaintext, fontname="Liberation Sans", fontsize=13];
+  edge  [color="#6b6a65", penwidth=1.3, dir=both, arrowsize=0.9];
+
+  tempo [label=<
+  <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="4" COLOR="#8a8984">
+    <TR><TD COLSPAN="2" BGCOLOR="#cde2fb" ALIGN="CENTER"><B>dim_tempo</B></TD></TR>
+    <TR><TD ALIGN="LEFT"><B>id_tempo</B></TD><TD ALIGN="RIGHT" PORT="pk"><FONT COLOR="#2a78d6"><B>PK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">data</TD><TD ALIGN="RIGHT"><FONT COLOR="#8a8984">AAAA-MM-GG</FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">anno · trimestre · mese · nome_mese</TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">anno_mese · settimana_iso</TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">giorno · giorno_settimana · nome_giorno</TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">is_weekend · is_festivo</TD></TR>
+  </TABLE>>];
+
+  cliente [label=<
+  <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="4" COLOR="#8a8984">
+    <TR><TD COLSPAN="2" BGCOLOR="#cde2fb" ALIGN="CENTER"><B>dim_cliente</B></TD></TR>
+    <TR><TD ALIGN="LEFT"><B>sk_cliente</B></TD><TD ALIGN="RIGHT" PORT="pk"><FONT COLOR="#2a78d6"><B>PK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">id_cliente</TD><TD ALIGN="RIGHT"><FONT COLOR="#8a8984">chiave naturale</FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">zona</TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">data_iscrizione · anno_mese_iscrizione</TD></TR>
+  </TABLE>>];
+
+  fatti [label=<
+  <TABLE BORDER="2" CELLBORDER="0" CELLSPACING="0" CELLPADDING="4" COLOR="#2a78d6">
+    <TR><TD COLSPAN="2" BGCOLOR="#2a78d6" ALIGN="CENTER"><FONT COLOR="white"><B>fact_richieste</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT"><B>id_richiesta</B></TD><TD ALIGN="RIGHT"><FONT COLOR="#2a78d6"><B>PK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" PORT="t">id_tempo</TD><TD ALIGN="RIGHT" PORT="t2"><FONT COLOR="#eb6834"><B>FK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" PORT="c">sk_cliente</TD><TD ALIGN="RIGHT" PORT="c2"><FONT COLOR="#eb6834"><B>FK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" PORT="f">sk_fornitore</TD><TD ALIGN="RIGHT" PORT="f2"><FONT COLOR="#eb6834"><B>FK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" PORT="o">sk_operatore</TD><TD ALIGN="RIGHT" PORT="o2"><FONT COLOR="#eb6834"><B>FK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">data_ora · ora · stato</TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2" BGCOLOR="#eef4fc"><B>importo</B> (€) · <B>tempo_erogazione_min</B></TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2" BGCOLOR="#eef4fc">flag_completata · flag_annullata · flag_ritardo</TD></TR>
+  </TABLE>>];
+
+  fornitore [label=<
+  <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="4" COLOR="#8a8984">
+    <TR><TD COLSPAN="2" BGCOLOR="#cde2fb" ALIGN="CENTER"><B>dim_fornitore</B></TD></TR>
+    <TR><TD ALIGN="LEFT" PORT="pk"><B>sk_fornitore</B></TD><TD ALIGN="RIGHT"><FONT COLOR="#2a78d6"><B>PK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">id_fornitore</TD><TD ALIGN="RIGHT"><FONT COLOR="#8a8984">chiave naturale</FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">nome · categoria · zona</TD></TR>
+  </TABLE>>];
+
+  operatore [label=<
+  <TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="4" COLOR="#8a8984">
+    <TR><TD COLSPAN="2" BGCOLOR="#cde2fb" ALIGN="CENTER"><B>dim_operatore</B></TD></TR>
+    <TR><TD ALIGN="LEFT" PORT="pk"><B>sk_operatore</B></TD><TD ALIGN="RIGHT"><FONT COLOR="#2a78d6"><B>PK</B></FONT></TD></TR>
+    <TR><TD ALIGN="LEFT">id_operatore</TD><TD ALIGN="RIGHT"><FONT COLOR="#8a8984">chiave naturale</FONT></TD></TR>
+    <TR><TD ALIGN="LEFT" COLSPAN="2">zona · tipo_attivita</TD></TR>
+  </TABLE>>];
+
+  {rank=same; tempo; cliente}
+  {rank=same; fornitore; operatore}
+  tempo:pk:e   -> fatti:t:w   [arrowtail=tee, arrowhead=crow];
+  cliente:pk:e -> fatti:c:w   [arrowtail=tee, arrowhead=crow];
+  fatti:f2:e   -> fornitore:pk:w [arrowtail=crow, arrowhead=tee];
+  fatti:o2:e   -> operatore:pk:w [arrowtail=crow, arrowhead=tee];
+}

@@ -1,0 +1,26 @@
+digraph architettura {
+  graph [rankdir=LR, bgcolor="white", pad="0.12", nodesep="0.30", ranksep="0.55", fontname="Liberation Sans", dpi=220, newrank=true];
+  node  [shape=box, style="rounded,filled", fontname="Liberation Sans", fontsize=15, color="#2a78d6", fillcolor="#eef4fc", fontcolor="#1f1f1f", penwidth=1.3, margin="0.14,0.08", width=2.6];
+  edge  [color="#6b6a65", penwidth=1.2, arrowsize=0.8];
+
+  gen  [label=<<B>1. Generatore dei dati</B><BR/><FONT POINT-SIZE="12.5">genera_dati.py · seme e parametri</FONT>>];
+  csv  [label=<<B>File CSV grezzi</B><BR/><FONT POINT-SIZE="12.5">clienti · fornitori · operatori · richieste</FONT>>, shape=folder, style="filled", fillcolor="#f3f2ee", color="#8a8984"];
+  etl  [label=<<B>2. Procedura ETL</B><BR/><FONT POINT-SIZE="12.5">etl.py: estrae, pulisce, uniforma,<BR/>collega le chiavi e carica</FONT>>];
+  qual [label=<<FONT POINT-SIZE="12.5">rapporto sulla qualità dei dati,<BR/>righe scartate con il motivo,<BR/>test automatici</FONT>>, shape=note, style="filled", fillcolor="#f3f2ee", color="#8a8984"];
+  dw   [label=<<B>Data warehouse SQLite</B><BR/><FONT POINT-SIZE="12.5">schema a stella (schema.sql)</FONT>>, shape=cylinder, style="filled", fillcolor="#eef4fc"];
+  q    [label=<<B>3. Query SQL dei KPI</B><BR/><FONT POINT-SIZE="12.5">kpi.sql, unica definizione<BR/>degli indicatori</FONT>>];
+  dash [label=<<B>4. Dashboard interattiva</B><BR/><FONT POINT-SIZE="12.5">Streamlit + Plotly · filtri<BR/>periodo, zona, categoria</FONT>>, fillcolor="#2a78d6", fontcolor="white", color="#2a78d6"];
+  cli  [label=<<B>kpi.py</B><BR/><FONT POINT-SIZE="12.5">riepilogo da riga di comando</FONT>>, fillcolor="white"];
+
+  {rank=same; gen; csv}
+  {rank=same; etl; qual}
+  {rank=same; dw; q}
+  {rank=same; dash; cli}
+  gen -> csv;
+  csv -> etl;
+  etl -> qual [style=dashed];
+  etl -> dw;
+  dw -> q;
+  q -> dash;
+  q -> cli;
+}

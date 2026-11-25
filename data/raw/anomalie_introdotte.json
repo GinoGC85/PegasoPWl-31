@@ -1,0 +1,45 @@
+{
+  "parametri": {
+    "seed": 42,
+    "n_clienti": 450,
+    "n_fornitori": 300,
+    "n_operatori": 320,
+    "n_richieste": 594,
+    "n_non_valide": 4,
+    "n_duplicati": 6,
+    "n_operatori_recenti": 3,
+    "inizio": "2025-10-01",
+    "fine": "2026-09-30"
+  },
+  "righe_esportate": {
+    "clienti": 450,
+    "fornitori": 300,
+    "operatori": 320,
+    "richieste": 600
+  },
+  "anomalie_introdotte": {
+    "clienti": {
+      "zone_da_uniformare": 22,
+      "date_formato_gg_mm_aaaa": 62
+    },
+    "fornitori": {
+      "categorie_con_sinonimo": 9,
+      "categorie_da_uniformare": 20,
+      "zone_da_uniformare": 16,
+      "nomi_con_spazi_superflui": 10
+    },
+    "operatori": {
+      "attivita_da_uniformare": 24,
+      "zone_da_uniformare": 23
+    },
+    "richieste": {
+      "righe_duplicate": 6,
+      "importi_negativi": 2,
+      "completate_senza_tempo": 2,
+      "date_formato_gg_mm_aaaa": 80,
+      "importi_con_virgola": 83,
+      "stati_da_uniformare": 73,
+      "operatori_non_in_anagrafica": 3
+    }
+  }
+}
